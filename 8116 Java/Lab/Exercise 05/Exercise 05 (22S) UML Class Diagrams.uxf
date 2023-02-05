@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>22</x>
+      <y>308</y>
+      <w>352</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>User
+--
+-input:Scanner
+--
++inputInteger():int
++inputInteger(message:String):int
++inputDouble():double
++inputDouble(message:String):double
++inputString():String
++inputString(message:String):String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>22</x>
+      <y>22</y>
+      <w>517</w>
+      <h>264</h>
+    </coordinates>
+    <panel_attributes>HighLowGame
+--
+-user:User
+-random:Random
+-fuelAvailable:int
+-numberToGuess:int
+_-MIN:int = 1_
+_-MAX:int = 10_
+--
++HighLowGame()
++getGuelAvailable():int
++setFuelAvailable(fuelAvailable):int):void
++getNumberToGuess():int
++setNumberToGuess(numberToGuess:int):void
++reset()
++run()
+-checkGuess(guess:int):CheckGuessResult
+-reportGameResult(isWon:boolean, guessCount:int):String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>396</x>
+      <y>308</y>
+      <w>451</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>CheckGuessResult
+--
+-message:String
+-isWin:boolean
+--
++CheckGuessResult()
++CheckGuessResult(message:String, isWin:boolean)
++getMessage():String
++setMessage(message:String):void
++isWin():boolean
++setWin(isWin:boolean):void
++toString():String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>572</x>
+      <y>22</y>
+      <w>242</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>Exercise05
+--
+
+--
+_+main(args:String[]):void_</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

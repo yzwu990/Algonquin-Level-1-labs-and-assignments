@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>340</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>Cabbage
+--
+-weight: double
+-costPerKilogram: double
+--
++Cabbage()
++Cabbage(weight: double,costPerKilogram: double)
++getWeight():double
++setWeight(weight: double):void
++getCostPerKilogram():double
++setCostPerKilogram(costPerKilogram: double):void
++calculatePrice():price:double
++printReport():void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>30</x>
+      <y>280</y>
+      <w>430</w>
+      <h>400</h>
+    </coordinates>
+    <panel_attributes>CabbageTest
+--
++inputweight:double
++inputcost:double
++weight1: double
++costPerKilogram1: double
++price1: double
++weight2: double
++costPerKilogram2: double
+--
++CabbageTest()
+_+main(String[] args):void_
++Scanner(System.in)要不要写？怎么写？
++iuputValue.hasNextDouble():boolean
++iuputValue.nextDouble():double
++iuputValue.close()
++Cabbage()
++setWeight(inputWeight:double):void
++setCostPerKilogram(inputCost:double):void
++getWeight():double
++getCostPerKilogram():double
++calculatePrice():double:
++println(arguments:String):void   ???
++printReport():void
++Cabbage(weight2: double,costPerKilogram2: double)
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

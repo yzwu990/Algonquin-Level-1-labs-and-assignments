@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>110</x>
+      <y>80</y>
+      <w>170</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Assignment02
+--
+
+--
+_+main(args:String[]):void_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>80</x>
+      <y>180</y>
+      <w>230</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>User
+--
+
+--
++ inputInteger(): int
++ inputInteger(message: String): int
++ inputDouble(): double
++ inputDouble(message: String): int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>70</y>
+      <w>300</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>PotatoChipBag
+--
+- int size
+- double weight
+__+ int REGULAR__
+__- double REGULAR_WEIGHT__
+__+ int LARGE__
+__- double LARGE_WEIGHT__
+__- double EPSILON__
+--
++PotatoChipBag()
++PotatoChipBag(size:int, weight:double)
++getSize():int
++setSize(size:int):void
++getWeight():double
++setWeight(weight:double):void
++isBagCorrectWeight():boolean
+
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

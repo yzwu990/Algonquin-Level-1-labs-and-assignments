@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>110</x>
+      <y>100</y>
+      <w>360</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>RightAngleTriangle
+--
+-adjacent:double
+-opposite:double
+--
++RightAngleTriangle()
++RightAngleTriangle(adjacent:double,opposite:double)
++setAdjacent(adjacent:double):void
++getAdjacent():double
++setOpposite(opposite:double):void
++getOpposite():double
++calculateHypotenuse():double
++calculatePerimeter():double
++calculateArea():double
++createReport():String
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>490</x>
+      <y>100</y>
+      <w>210</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Exercise03
+--
+_+main(args: String[]):void_</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

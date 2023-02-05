@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>190</x>
+      <y>140</y>
+      <w>170</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Exercise04
+--
+
+--
+_+main(args:String[]):void_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>410</x>
+      <y>120</y>
+      <w>220</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>MeterStick
+--
++ double EXPECTED_LENGTH
++ double EPSILON
+- double length
+--
++ MeterStick()
++ MeterStick(length:double)
++ getLength():double
++ setLength(length:double):void
++ toCentimeters():double
++ toMillimeters():double
++ toString():String
++ verify(length:double):void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
